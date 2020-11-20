@@ -2,7 +2,7 @@ from greeter import Greeter
 
 if __name__ == '__main__':
     try:
-        i = int(input("Сколько раз Вас нужно приветствовать?: "))
+        i = int(input("Сколько раз Вас нужно приветствовать (введите целое число, например, 2)?: "))
         for _ in range(i):
             Greeter().greet()
     except ValueError:
