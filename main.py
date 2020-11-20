@@ -1,5 +1,6 @@
 from greeter import Greeter
 
 if __name__ == '__main__':
-    for _ in range(3):
+    i = int(input("Сколько раз Вас нужно приветствовать?"))
+    for _ in range(i):
         Greeter().greet()
