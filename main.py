@@ -1,4 +1,5 @@
 from greeter import Greeter
 
 if __name__ == '__main__':
-    Greeter().greet()
+    for _ in range(3):
+        Greeter().greet()
