@@ -1,6 +1,6 @@
 import random
 
-names = ['John', 'Ivan', 'Maksim', 'Olga', 'Irina']
+names = ['John', 'Ivan', 'Maksim', 'Olga', 'Irina', 'Anna', 'Alexander', 'Ingvar', 'Lars']
 
 
 class Greeter:
