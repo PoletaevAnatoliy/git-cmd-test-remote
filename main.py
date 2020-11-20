@@ -2,8 +2,8 @@ from greeter import Greeter
 
 if __name__ == '__main__':
     try:
-        i = int(input("Сколько раз Вас нужно приветствовать?: "))
-        for _ in range(i):
+        i = input("Сколько раз Вас нужно приветствовать?: ")
+        for _ in range(int(i)):
             Greeter().greet()
     except ValueError:
-        print("Введённые символы не являются целым числом!")
+        print(f"Введённые Вами символы (\"{i}\") не являются целым числом!")
